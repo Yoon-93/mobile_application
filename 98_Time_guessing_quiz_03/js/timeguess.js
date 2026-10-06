@@ -9,10 +9,10 @@ let startTime; // Startボタンクリック時の時刻
 let timeoutid; // ID
 let stopTime = 0; // Stopまでの経過時間
 let currentAudio = null;
-let reset = new Audio("../sound/reset.mp3");
-let start = new Audio("../sound/start.mp3");
-let stop = new Audio("../sound/stop1.mp3");
-let stop1 = new Audio("../sound/stop2.mp3");
+let reset = new Audio("./sound/reset.mp3");
+let start = new Audio("./sound/start.mp3");
+let stop = new Audio("./sound/stop1.mp3");
+let stop1 = new Audio("./sound/stop2.mp3");
 
 // ボタンを"初期"状態とする
 setButtonStateInitial();

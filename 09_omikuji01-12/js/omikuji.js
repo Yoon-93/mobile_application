@@ -4,12 +4,12 @@ let n = null;
 let prev_n = null;
 
 let currentAudio = null;
-let omikuji_sound1 = new Audio("../sound/omikuji_sound1.mp3");
-let omikuji_sound2 = new Audio("../sound/omikuji_sound2.mp3");
-let omikuji_sound3 = new Audio("../sound/omikuji_sound3.mp3");
-let omikuji_sound4 = new Audio("../sound/omikuji_sound4.mp3");
-let omikuji_sound5 = new Audio("../sound/omikuji_sound5.mp3");
-let omikuji_sound6 = new Audio("../sound/omikuji_sound6.mp3");
+let omikuji_sound1 = new Audio("./sound/omikuji_sound1.mp3");
+let omikuji_sound2 = new Audio("./sound/omikuji_sound2.mp3");
+let omikuji_sound3 = new Audio("./sound/omikuji_sound3.mp3");
+let omikuji_sound4 = new Audio("./sound/omikuji_sound4.mp3");
+let omikuji_sound5 = new Audio("./sound/omikuji_sound5.mp3");
+let omikuji_sound6 = new Audio("./sound/omikuji_sound6.mp3");
 let resultSound = [
   omikuji_sound1,
   omikuji_sound2,
@@ -56,12 +56,12 @@ btn1.addEventListener(
   "click",
   function () {
     let resultTextImage = [
-      "../img/daikichi.png",
-      "../img/chuukichi.png",
-      "../img/shokichi.png",
-      "../img/kichi.png",
-      "../img/kyou.png",
-      "../img/suekichi.png",
+      "./img/daikichi.png",
+      "./img/chuukichi.png",
+      "./img/shokichi.png",
+      "./img/kichi.png",
+      "./img/kyou.png",
+      "./img/suekichi.png",
     ];
     /*let resultColor = [
       "#fff2ba",
@@ -77,12 +77,12 @@ btn1.addEventListener(
     let resultMinSize = [20, 15, 10, 8, 10, 15];
     let resultMinSpeed = [3, 7, 6, 8, 4, 10];
     let resultImage = [
-      "../img/bluepetals.png",
-      "../img/leaf.png",
-      "../img/pinkpetals.png",
-      "../img/snowflakes.png",
-      "../img/star.png",
-      "../img/sakura.png",
+      "./img/bluepetals.png",
+      "./img/leaf.png",
+      "./img/pinkpetals.png",
+      "./img/snowflakes.png",
+      "./img/star.png",
+      "./img/sakura.png",
     ];
 
     //let n = Math.floor(Math.random() * resultTextImage.length);

@@ -12,7 +12,7 @@ body {
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
   text-align: center;
-  background-color: rgba(233, 168, 227, 0.6);
+  background-color: #feffaf;
   background-blend-mode: soft-light;
   /* background-image: url(../img/backimg.JPG);
   background-size: cover; */
@@ -20,7 +20,7 @@ body {
 }
 
 body.bg-success {
-  background-image: url("/img/fireworks.gif");
+  background-image: url("../img/fireworks.gif");
   background-size: cover;
 }
 header,
@@ -54,11 +54,11 @@ table,
 
 header {
   margin-top: 8px;
-  color: rgb(255, 251, 0);
+  color: #78a2d2;
   font-size: 38px;
   font-weight: bold;
   text-align: center;
-  background: rgb(71, 71, 71);
+  background: #2d120d;
 }
 
 .message-container {
@@ -86,7 +86,7 @@ header {
   font-size: 25px;
 }
 i {
-  color: grey;
+  color: #8e1825;
 }
 #timer {
   font-size: 50px;
@@ -116,7 +116,7 @@ i {
   border-radius: 10px;
   font-size: 24px;
   color: whitesmoke;
-  background: grey;
+  background: #2d120d;
   border: solid 2px #333;
   user-select: none;
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
@@ -168,17 +168,14 @@ footer > p {
 #btn99 {
   padding: 0.5em;
   border-radius: 1em;
-  color: whitesmoke;
+  color: #feffaf;
   font-size: 1.5em;
-  background: rgb(253, 4, 79);
+  background: #78a2d2;
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
 }
 /* 01-04 add 疑似クラス*/
 #btn99:hover {
-  background: linear-gradient(
-    rgba(255, 0, 0, 0.7) 0%,
-    rgba(0, 0, 255, 0.7) 100%
-  );
+  background: linear-gradient(#feffaf, #78a2d2);
 }
 
 @media screen and (max-width: 480px) {

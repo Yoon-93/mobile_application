@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: normal; /*ブラウザが自動的に行間を決める*/
-  background-color: rgb(220, 253, 253);
+  background-color: #feffaf;
   overflow-x: auto; /*横にはみ出た分をスクロールする*/
   overflow-y: hidden; /*縦にはみ出た分は隠す*/
   white-space: nowrap; /*文字列を改行させない*/
@@ -37,17 +37,14 @@ body {
 #btn99 {
   padding: 0.5em;
   border-radius: 1em;
-  color: whitesmoke;
+  color: #feffaf;
   font-size: 1.5em;
-  background: rgb(253, 4, 79);
+  background: #78a2d2;
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
 }
 /* 01-04 add 疑似クラス*/
 #btn99:hover {
-  background: linear-gradient(
-    rgba(255, 0, 0, 0.7) 0%,
-    rgba(0, 0, 255, 0.7) 100%
-  );
+  background: linear-gradient(#feffaf, #78a2d2);
 }
 
 /*******************************************************/
@@ -93,7 +90,7 @@ h1 {
   border: solid 0.02em rgb(241, 241, 241);
   border-bottom: solid 4px grey;
   border-radius: 0.5em;
-  background: rgb(26, 212, 212);
+  background: #78a2d2;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -108,7 +105,7 @@ h1 {
   width: 196px;
   font-size: 1em;
   color: rgb(173, 170, 170);
-  background-color: rgb(220, 253, 253);
+  background-color: #bbd3e0;
   border: none;
   text-align: right;
   overflow: visible;
@@ -116,7 +113,7 @@ h1 {
 #result {
   width: 196px;
   font-size: 1.5em;
-  color: grey;
+  color: #6b0b0c;
   border: solid 1px grey;
   text-align: right;
   overflow: auto;
@@ -128,14 +125,14 @@ h1 {
   width: 147px;
 }
 #cancel {
-  background-color: rgb(173, 170, 170);
+  background-color: #6b0b0c;
 }
 #div,
 #mult,
 #minus,
 #plus,
 #equal {
-  background-color: rgb(240, 173, 78);
+  background-color: #472f26;
 }
 /*******************************************************/
 /* フッター                                             */

@@ -20,7 +20,7 @@ body {
   font-size: 1.6em; /* 16px */
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
-  background: #eeeeee;
+  background: #feffaf;
   overflow: hidden;
 }
 /*******************************************************/
@@ -50,17 +50,14 @@ h1 {
 #btn99 {
   padding: 0.5em;
   border-radius: 1em;
-  color: whitesmoke;
+  color: #feffaf;
   font-size: 1.5em;
-  background: rgb(253, 4, 79);
+  background: #78a2d2;
   cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
 }
 /* 01-04 add 疑似クラス*/
 #btn99:hover {
-  background: linear-gradient(
-    rgba(255, 0, 0, 0.7) 0%,
-    rgba(0, 0, 255, 0.7) 100%
-  );
+  background: linear-gradient(#feffaf, #78a2d2);
 }
 
 .f-container {
