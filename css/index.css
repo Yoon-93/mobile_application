@@ -75,6 +75,16 @@ h2 {
   text-align: left;
 }
 
+.wave {
+  display: inline-block;
+  animation: jump 1.2s ease-in-out infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes jump{
+  0%,100% {transform: translateY(0);}
+  50%{transform: translateY(-5px);}
+}
 /*****************************/
 /* ページ                    */
 /*****************************/
@@ -112,10 +122,16 @@ a {
 
 /* mouseoverでグレースケール */
 a:hover img {
-  transform: scale(1.3);
+  animation: rotate 3s infinite;
 }
+
+@keyframes rotate{
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+
 a:hover {
-  color: #ffe3a5;
+  color: #2d120d;
 }
 /*****************************/
 /* container  item           */
