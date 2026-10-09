@@ -54,11 +54,11 @@ table,
 
 header {
   margin-top: 8px;
-  color: #78a2d2;
+  color: #2d120d;
   font-size: 38px;
   font-weight: bold;
   text-align: center;
-  background: #2d120d;
+  background: #78a2d2;
 }
 
 .message-container {
@@ -73,7 +73,7 @@ header {
   flex-flow: row wrap;
   margin: 0px;
   justify-content: center;
-  background: #ffd347;
+  background: #78a2d2;
   /* height: 100px;
   line-height: 100px;
   font-size: 50px;
